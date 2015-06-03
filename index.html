@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Hotel Julieta</title>
+
+    <!-- FB -->
+    <meta property="og:title" content="Nothing But Thieves."/>
+    <meta property="og:site_name" content="Nothing But Thieves."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="http://www.nbthieves.com/og-image.jpg"/>
+    <meta property="og:url" content="http://www.nbthieves.com"/>
+    <meta property="og:description" content="Official website of Nothing But Thieves."/>
+    <meta name="description" content="Official website of Nothing But Thieves."/>
+    <meta name="keywords" content="nothing but theives, wake up call, graveyard whistling" />
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@NBThieves">
+    <meta name="twitter:title" content="Nothing But Thieves.">
+    <meta name="twitter:description" content="Official website of Nothing But Thieves.">
+    <meta name="twitter:creator" content="@NBThieves">
+    <meta name="twitter:image:src" content="http://www.nbthieves.com/og-image.jpg">
+
+    <script type="text/javascript" src="js/dist/smecookie.js"></script>
+    <link href="css/smecookie.css" rel="stylesheet" type="text/css">
+
+    <a href="https://plus.google.com/113180220354170349068" rel="publisher"></a>
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <nav>
+        <div id="playback-control" class="playback-pause"></div>
+        <ul class="clearfix">
+          <li class="left-nav1"><a href="#ep">MUSIC</a></li>
+          <li class="left-nav2 subnav-wrapper"><a href="#single-itch">SINGLES</a>
+            <ul class="subnav">
+              <li><a href="#single-itch">- Itch</a></li>
+              <li><a href="#single-banmusic">- Ban All The Music</a></li>
+              <li><a href="#single-wakeup">- Wake Up Call</a></li>
+            </ul>
+          </li>
+          <li class="nav-logo"><img class="light" src="images/nbt-logo.png"><img class="dark" src="images/nbt-logo-dark.png"></li>
+          <li class="right-nav1"><a href="#next-gig">GIGS</a></li>
+          <li class="right-nav2"><a href="http://smarturl.it/NBTMerch?iqid=website" target="_blank" class="merch">BUY MERCH</a></li>
+        </ul>
+      </nav>
+    </div>
+    <ul class="FixieMask">
+      <li id="ep">
+        <div class="container">
+          <div id="loading"></div>
+          <div id="output" class="mask"></div>
+          <div id="tracks" class="hidden">
+            <a class="track" href="#track" data-track="1">Graveyard Whistling</a>
+            <a class="track" href="#track" data-track="2">Wake Up Call</a>
+            <a class="track" href="#track" data-track="3">Emergency</a>
+            <a class="track" href="#track" data-track="4">Itch</a>
+            <a class="track" href="#track" data-track="5">Last Orders</a>
+            <a class="track" href="#track" data-track="6">Ban All The Music</a>
+          </div>
+          <div class="logo">
+            <img id="logo-img" src="images/nbt-logo.svg">
+          </div>
+          <div class="bottom-buttons">
+            <span class="float-left button">
+              <a href="http://smarturl.it/NBTiTunesHome?iqid=website" target="_blank">
+                iTunes
+              </a>
+            </span>
+            <span class="float-right button">
+              <a href="http://smarturl.it/NBT_Spotify?iqid=website" target="_blank">
+                Spotify
+              </a>
+            </span>
+            <div class="clear"></div>
+          </div>
+          <p id="tracklist-show">SHOW TRACKLISTING</p>
+          <div id="mobile-tracks" class="hidden">
+            <p id="tracklist-hide">HIDE TRACKLISTING</p>
+            <div class="clearfix" id="tracklist">
+              <div class="mobile-track-div">
+                <a class="clearfix mobile-track" href="#track" data-track="1">
+                  <span class="mobile-play"></span>
+                  <span class="mobile-track-name">Graveyard Whistling</span>
+                </a>
+              </div>
+              <div class="mobile-track-div">
+                <a class="clearfix mobile-track" href="#track" data-track="2">
+                  <span class="mobile-play"></span>
+                  <span class="mobile-track-name">Wake Up Call</span>
+                </a>
+              </div>
+              <div class="mobile-track-div">
+                <a class="clearfix mobile-track" href="#track" data-track="3">
+                  <span class="mobile-play"></span>
+                  <span class="mobile-track-name">Emergency</span>
+                </a>
+              </div>
+              <div class="mobile-track-div">
+                <a class="clearfix mobile-track" href="#track" data-track="4">
+                  <span class="mobile-play"></span>
+                  <span class="mobile-track-name">Itch</span>
+                </a>
+              </div>
+              <div class="mobile-track-div">
+                <a class="clearfix mobile-track" href="#track" data-track="5">
+                  <span class="mobile-play"></span>
+                  <span class="mobile-track-name">Last Orders</span>
+                </a>
+              </div>
+              <div class="mobile-track-div">
+                <a class="clearfix mobile-track" href="#track" data-track="6">
+                  <span class="mobile-play"></span>
+                  <span class="mobile-track-name">Ban All The Music</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="arrow-scroll">
+            <img src="images/scroll.png" width="32" height="18">
+          </div>
+        </div>
+      </li>
+      <li id="single-itch" class="single">
+        <div class="container">
+          <span class="mask">
+            <span class="centered-circle"><img src="images/batm-ring.png"></span>
+          </span>
+          <div class="title">
+            <img src="images/itch-title.png">
+          </div>
+          <div class="single-buttons bottom-buttons">
+            <span class="itunes-button float-left button">
+              <a href="http://smarturl.it/ItchiTunes?iqid=website" target="_blank">
+                iTunes
+              </a>
+            </span>
+            <span class="float-right button">
+              <a href="http://smarturl.it/ItchSpotify?iqid=website" target="_blank">
+                Spotify
+              </a>
+            </span>
+            <div class="clear"></div>
+          </div>
+          <div class="video-player" data-video-id="dRdCdCtdMiU"></div>
+        </div>
+      </li>
+      <li id="single-banmusic" class="single">
+        <div class="container">
+          <span class="mask">
+            <span class="centered-circle"><img src="images/batm-ring.png"></span>
+          </span>
+          <div class="title">
+            <img src="images/batm-title.png">
+          </div>
+          <div class="single-buttons bottom-buttons dark banmusic">
+            <span class="video-button button" data-video-id="dRdCdCtdMiU" class="float-left button">
+              <p>Video</p>
+            </span>
+            <span class="itunes-button float-left button">
+              <a href="http://smartURL.it/BATMiTunes?iqid=website" target="_blank">
+                iTunes
+              </a>
+            </span>
+            <span class="button">
+              <a href="http://smarturl.it/BATMSpotify?iqid=website" target="_blank">
+                Spotify
+              </a>
+            </span>
+            <span class="website-button float-right button">
+              <a href=" http://www.nbthieves.com/batm" target="_blank">
+                Website
+              </a>
+            </span>
+            <div class="clear"></div>
+          </div>
+          <div class="video-player" data-video-id="dRdCdCtdMiU"></div>
+        </div>
+      </li>
+      <li id="single-wakeup" class="single">
+        <div class="container">
+          <span class="mask">
+            <span class="centered-circle"><img src="images/birds.png"></span>
+          </span>
+          <div class="title">
+            <img src="images/single-title.png">
+          </div>
+          <div class="single-buttons bottom-buttons">
+            <span class="video-button button" data-video-id="zi5hKext4z0" class="float-left button">
+              <p>Video</p>
+            </span>
+            <span class="itunes-button float-left button">
+              <a href="http://smarturl.it/WakeUpCall?iqid=website" target="_blank">
+                iTunes
+              </a>
+            </span>
+            <span class="float-right button">
+              <a href="http://smarturl.it/WakeUpCallSpotify?iqid=website" target="_blank">
+                Spotify
+              </a>
+            </span>
+            <div class="clear"></div>
+          </div>
+          <div id="close-video-div">
+            <p id="close-video-button">&times;</p>
+          </div>
+          <div class="video-player" data-video-id="zi5hKext4z0"></div>
+        </div>
+      </li>
+      <li id="next-gig">
+        <div class="container">
+          <span class="mask">
+            <span class="centered-circle"><img src="images/scribbled.png"></span>
+          </span>
+          <div class="next-gig-info">
+            <span class="gig-venue"></span>
+            <span class="gig-city"></span>
+            <span class="gig-date"></span>
+            <div class="clear"></div>
+            <span class="button"><a target="_blank">Tickets</a></span>
+          </div>
+          <div class="image-credit-container"><a class="image-credit" target="_blank"></a></div>
+        </div>
+      </li>
+      <li id="upcoming-gigs">
+        <div class="container">
+          <div class="upcoming-gig-list">
+            <div class="title">Upcoming Gigs</div>
+            <a href="http://cresset.ticketsolve.com/shows/873528775/events?show_id=873528775&TSLVq=9667857a-0e7c-4320-b9ea-c299e2831950&TSLVp=c5f9b349-9796-45f7-99ed-b39b31908f3f&TSLVts=1429101620&TSLVc=ticketsolve&TSLVe=cresset&TSLVrt=Safetynet&TSLVh=d228b9eb66b0e678550ec87e4ac637a5" target="_blank">
+              <div class="upcoming-gig-details" data-image="images/gigs/peterborough.jpg" data-image-credit="Reece Meins" data-image-credit-link="https://www.flickr.com/photos/greasybeans/" data-gig-date="2015-06-01T19:00:00+00:00">
+                <div class="gig-date">1 June 2015</div>
+                <div class="gig-city" data-short-city="Peterborough">Peterborough, UK</div>
+                <div class="gig-venue">The Cresset w/ Young Guns</div>
+                <div class="gig-tickets">Tickets</div>
+                <div class="clear"></div>
+              </div>
+            </a>
+            <a href="http://www.gigsandtours.com/event/young-guns/wulfrun-hall/852370" target="_blank">
+              <div class="upcoming-gig-details" data-image="images/gigs/wolverhampton.jpg" data-image-credit="Phil Shirley" data-image-credit-link="https://www.flickr.com/photos/phil_shirley/" data-gig-date="2015-06-03T19:00:00+00:00">
+                <div class="gig-date">3 June 2015</div>
+                <div class="gig-city" data-short-city="Wolverhampton">Wolverhampton, UK</div>
+                <div class="gig-venue">Wulfrun Hall w/ Young Guns</div>
+                <div class="gig-tickets">Tickets</div>
+                <div class="clear"></div>
+              </div>
+            </a>
+            <a href="http://www.cardiffstudents.com/ents/event/5169/" target="_blank">
+              <div class="upcoming-gig-details" data-image="images/gigs/cardiff.jpg" data-image-credit="Geraint Rowland" data-image-credit-link="https://www.flickr.com/photos/geezaweezer/" data-gig-date="2015-06-04T19:00:00+00:00">
+                <div class="gig-date">4 June 2015</div>
+                <div class="gig-city" data-short-city="Cardiff">Cardiff, UK</div>
+                <div class="gig-venue">Y Plas Nightclub w/ Young Guns</div>
+                <div class="gig-tickets">Tickets</div>
+                <div class="clear"></div>
+              </div>
+            </a>
+            <a href="http://www.ticketmaster.co.uk/young-guns-manchester-05-06-2015/event/1F004E54803822B8?artistid=718998&majorcatid=10001&minorcatid=1" target="_blank">
+              <div class="upcoming-gig-details" data-image="images/gigs/manchester.jpg" data-image-credit="Stacey MacNaught" data-image-credit-link="https://www.flickr.com/photos/staceycav/" data-gig-date="2015-06-05T19:00:00+00:00">
+                <div class="gig-date">5 June 2015</div>
+                <div class="gig-city" data-short-city="Manchester">Manchester, UK</div>
+                <div class="gig-venue">Academy 2 w/ Young Guns</div>
+                <div class="gig-tickets">Tickets</div>
+                <div class="clear"></div>
+              </div>
+            </a>
+            <a href="http://www.seetickets.com/event/young-guns/waterfront/856326" target="_blank">
+              <div class="upcoming-gig-details" data-image="images/gigs/norwich.jpg" data-image-credit="Gerry Balding" data-image-credit-link="https://www.flickr.com/photos/8929612@N04/" data-gig-date="2015-06-06T19:00:00+00:00">
+                <div class="gig-date">6 June 2015</div>
+                <div class="gig-city" data-short-city="Norwich">Norwich, UK</div>
+                <div class="gig-venue">The Waterfront w/ Young Guns</div>
+                <div class="gig-tickets">Tickets</div>
+                <div class="clear"></div>
+              </div>
+            </a>
+            <a href="http://smarturl.it/NBTYoungGuns" target="_blank">
+              <div class="upcoming-gig-details" data-image="images/gigs/london.jpg" data-image-credit="August Brill" data-image-credit-link="https://www.flickr.com/photos/augustbrill/" data-gig-date="2015-06-08T19:00:00+00:00">
+                <div class="gig-date">8 June 2015</div>
+                <div class="gig-city" data-short-city="London">London, UK</div>
+                <div class="gig-venue">Scala w/ Young Guns</div>
+                <div class="gig-tickets">Tickets</div>
+                <div class="clear"></div>
+              </div>
+            </a>
+            <a href="http://www.ticketmaster.co.uk/young-guns-glasgow-09-06-2015/event/36004E53AB553DE7?artistid=718998&majorcatid=10001&minorcatid=1" target="_blank">
+              <div class="upcoming-gig-details" data-image="images/gigs/glasgow.jpg" data-image-credit="Surajit Paul" data-image-credit-link="https://www.flickr.com/photos/43539613@N02/" data-gig-date="2015-06-09T19:00:00+00:00">
+                <div class="gig-date">9 June 2015</div>
+                <div class="gig-city" data-short-city="Glasgow">Glasgow, UK</div>
+                <div class="gig-venue">The Garage w/ Young Guns</div>
+                <div class="gig-tickets">Tickets</div>
+                <div class="clear"></div>
+              </div>
+            </a>
+            <a href="http://www.seetickets.com/event/young-guns/plug/855774" target="_blank">
+              <div class="upcoming-gig-details" data-image="images/gigs/glasgow.jpg" data-image-credit="[Duncan]" data-image-credit-link="https://www.flickr.com/photos/duncanh1/" data-gig-date="2015-06-10T19:00:00+00:00">
+                <div class="gig-date">10 June 2015</div>
+                <div class="gig-city" data-short-city="Sheffield">Sheffield, UK</div>
+                <div class="gig-venue">Plug w/ Young Guns</div>
+                <div class="gig-tickets">Tickets</div>
+                <div class="clear"></div>
+              </div>
+            </a>
+
+            <!-- <a href="http://www.songkick.com/concerts/20844398-twenty-one-pilots-at-electric-brixton?utm_source=11593&utm_medium=partner&utm_campaign=widget&utm_content=4441173" target="_blank"> -->
+
+              <!-- gigs with class placeholder won't be displayed in gig list -->
+              <div class="upcoming-gig-details placeholder" data-image="images/gigs/holding.jpg" data-image-credit="Peter Neill" data-image-credit-link="#" data-gig-date="2015-11-14T12:00:00+00:00">
+                <div class="gig-date"></div>
+                <div class="gig-city" data-short-city=""></div>
+                <div class="gig-venue"></div>
+                <div class="gig-tickets"></div>
+                <div class="clear"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div id="social">
+      <div class="container">
+        <div id="social-div">
+          <ul class="icons clearfix">
+            <li><a class="social-icon soundcloud" href="https://soundcloud.com/nothingbutthieves/" target="_blank">Soundcloud</a></li>
+            <li><a class="social-icon spotify" href="https://play.spotify.com/artist/1kDGbuxWknIKx4FlgWxiSp?play=true&utm_source=open.spotify.com&utm_medium=open" target="_blank">Spotify</a></li>
+            <li><a class="social-icon instagram" href="http://instagram.com/NothingButThieves" target="_blank">Instagram</a></li>
+            <li><a class="social-icon facebook" href="https://www.facebook.com/NothingButThieves" target="_blank">Facebook</a></li>
+            <li><a class="social-icon twitter" href="https://twitter.com/NBThieves" target="_blank">Twitter</a></li>
+            <li><a class="social-icon vevo" href="https://www.youtube.com/user/NBTVEVO" target="_blank">Vevo</a></li>
+          </ul>
+          <a href="http://smarturl.it/NBTid?iqid=website" target="_blank"><h3 id="id">Get your unique NBT iD here</h3></a>
+          <a href="http://smarturl.it/NBTMerch?iqid=website" target="_blank"><h3 id="merch">Buy Merch</h3></a>
+          <a href="http://www.nbthieves.com/batm" target="_blank"><h3 id="batm">Ban All The Music</h3></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js\/jquery.min.js"><\/script>')</script>
+    <!--[if !IE]><!-->
+    <script src="//ajax.googleapis.com/ajax/libs/threejs/r67/three.min.js"></script>
+    <script>window.THREE || document.write('<script src="js\/three.min.js"><\/script>')</script>
+    <!--<![endif]-->
+    <script src="js/dist/main.min.js"></script>
+
+    <!-- SONY MUSIC GOOGLE ANALYTICS TRACKING -->
+    <script type="text/javascript">
+    <!--//--><![CDATA[//><!--
+    (function() {
+       var e = document.createElement("script");
+       e.type = "text/javascript"; e.async = true;
+       e.src = "http" + (document.location.protocol === "https:" ? "s://ssl" : "://") + "tag.myplay.com/t/a/" + document.location.hostname;
+       var s = document.getElementsByTagName("script")[0];
+       s.parentNode.insertBefore(e, s);
+     })();
+    //--><!]]>
+    </script>
+
+    <!-- SONY MUSIC UK FACEBOOK WEBSITE RETARGETING -->
+    <script>(function() {
+      var _fbq = window._fbq || (window._fbq = []);
+      if (!_fbq.loaded) {
+      var fbds = document.createElement('script');
+      fbds.async = true;
+      fbds.src = '//connect.facebook.net/en_US/fbds.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(fbds, s);
+      _fbq.loaded = true;
+    }
+    _fbq.push(['addPixelId', '225865057601412']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'PixelInitialized', {}]);
+    </script>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=225865057601412&amp;ev=PixelInitialized" /></noscript>
+
+    <!-- ADMAXIM AD 1X PIXEL AD TRACKER -->
+    <IMG src=”https://secure-datatrack-hk.admaxim.com/datatracker/rdata?pid=NothingButThieves&udata=site:artistpage” width=”0” height=”0” />
+
+    <!-- SONY MUSIC COOKIE NOTIFICATION, ADD THIS TO THE SITE FOOTER BEFORE THE </body> TAG -->
+    <div id="smecookienotice"><div id="smecookienotice-content"><h4>This website uses cookies</h4><a href="#" id="closesmecookienotice" title="Close Cookie Policy">X</a><p>We use different cookies on this site for various purposes including to enhance your browsing experience, measure our audience and provide you with tailored ads. By using this site, you agree to our use of cookies. To find out more and how to set your own preferences, <a href="http://hub.sonymusic.com/privacy/?t=gb&l=eng" target="_blank">click here</a>.</p></div></div>
+
+  </body>
+</html>
