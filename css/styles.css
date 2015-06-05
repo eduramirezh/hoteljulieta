@@ -302,7 +302,7 @@ nav .subnav li a {
 #ep .logo,
 #loading:after {
   position: relative;
-  top: 45%;
+  top: 5%;
   width: 75%;
   margin: 0 auto;
   text-align: center;
@@ -1030,7 +1030,7 @@ a:hover {
 
   #ep .logo {
     margin-top: -21px;
-    top: 50%;
+    top: 20%;
   }
 
   #single .title {
