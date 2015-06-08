@@ -299,10 +299,14 @@ nav .subnav li a {
   background: #20191b;
 }
 
+.logo img {
+  width: 40%;
+}
 #ep .logo,
 #loading:after {
   position: relative;
-  width: 100%;
+  top: 34%;
+  width: 75%;
   margin: 0 auto;
   text-align: center;
 }
